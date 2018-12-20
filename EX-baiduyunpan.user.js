@@ -300,7 +300,7 @@
 						msg: '复制失败'
 					});
 				});
-				var text = '<div style="width:100%;word-break:break-all;text-align:left;border: 1px solid #e2e2e4;border-radius:5px;height: auto;"><a id="bar" src="' + dlinks.join('\n').replace('d.pcs.baidu.com',
+				var text = '<div style="width:100%;word-break:break-all;text-align:left;border: 1px solid #e2e2e4;border-radius:5px;height: auto;"><a id="bar" href="' + dlinks.join('\n').replace('d.pcs.baidu.com',
 						'c.pcs.baidu.com') + '">' + dlinks.join('\n').replace('d.pcs.baidu.com',
 						'c.pcs.baidu.com') + '</a></div>';
 				var dialog = ctx.ui.confirm({
