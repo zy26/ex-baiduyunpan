@@ -77,7 +77,7 @@
 		var PAGE_CONFIG = {
 			pan: {
 				prefix: 'function-widget-1:',
-				containers: ['.g-button:has(.icon-download):visible'],
+				containers: ['.g-button[title=离线下载]:has(.icon-download):visible'],
 				style: function() {}
 			},
 			share: {
