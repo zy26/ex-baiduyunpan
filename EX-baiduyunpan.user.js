@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         EX-百度云盘
-// @namespace    https://github.com/gxvv/ex-baiduyunpan/
+// @namespace    https://github.com/xhtmlabc/ex-baiduyunpan
 // @version      0.3.3a
 // @description  [下载大文件] [批量下载] [文件夹下载] [百度网盘] [百度云盘] [企业版]
 // @description  [baidu] [baiduyun] [yunpan] [baiduyunpan] [eyun]
@@ -51,7 +51,7 @@
 		}
 		var $dialog = $('<div id="errorDialog">' +
 			'<h3>EX-baiduyunpan:程序异常</h3>' +
-			'<div class="dialog-body"><p>请尝试<a href="https://gxvv.github.io/ex-baiduyunpan/EX-baiduyunpan.user.js" target="_blank">更新脚本</a>或复制以下信息<a href="https://github.com/gxvv/ex-baiduyunpan/issues" target="_blank">提交issue</a>(请不要提交重复的issue)</p>' +
+			'<div class="dialog-body"><p>请尝试<a href="https://xhtmlabc.github.io/ex-baiduyunpan/EX-baiduyunpan.user.js" target="_blank">更新脚本</a></p>' +
 			'<p>Exception: ' + msg + '</p>' +
 			'<p>Script Ver: ' + GM_info.script.version + '</p>' +
 			'<p>TemperMonkey Ver: ' + GM_info.version + '</p>' +
