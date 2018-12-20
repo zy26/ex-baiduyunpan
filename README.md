@@ -3,22 +3,14 @@
 ![Chrome x64 v60.4](https://img.shields.io/badge/Chrome%20x64-v60.4-brightgreen.svg)
 ![Safari v11.0.3](https://img.shields.io/badge/Safari%20-v11.0.3-brightgreen.svg)
 
-如有问题欢迎提交Issue，欢迎交流讨论。:star2:
-## ⚠️注意
-因时间有限，仅对最新版Chrome和Safari浏览器下TamperMonkey提供支持。不会增加额外非必要的功能。
-
-本脚本仅提供了获取下载链接的功能，下载速度过慢/第三方下载工具不能下载/链接超时/压缩包不能解压等问题与脚本无关。
-
-## 功能
-- 解除大文件下载限制
-- 支持文件夹下载
-- 支持多文件下载
-- 支持批量复制下载链接
-- 支持百度网盘和百度企业网盘
+# 来源
+1. 原作者 [gxvv](https://github.com/gxvv/ex-baiduyunpan/)
+2. 作者 [淘优惠](https://greasyfork.org/zh-CN/scripts/369221-%E7%99%BE%E5%BA%A6%E4%BA%91%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F%E7%89%88%E6%94%AF%E6%8C%81%E8%BF%85%E9%9B%B7-vip%E8%A7%86%E9%A2%91%E5%9C%A8%E7%BA%BF%E8%A7%A3%E6%9E%90%E7%A0%B4%E8%A7%A3%E5%8E%BB%E5%B9%BF%E5%91%8A-%E8%B4%AD%E7%89%A9%E9%A2%86%E5%8F%96%E4%BC%98%E6%83%A0%E5%88%B8-%E8%B4%AD%E7%89%A9%E7%AB%8B%E7%9C%8180-2018-12-13%E5%8A%A0%E5%BC%BA%E7%A8%B3%E5%AE%9A%E7%89%88)
+3. ...
 
 ## License
 The MIT License (MIT)
-Copyright © 2017 [gxvv](https://github.com/gxvv)
+Copyright © 2017 [xhtmlabc](https://github.com/xhtmlabc)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
