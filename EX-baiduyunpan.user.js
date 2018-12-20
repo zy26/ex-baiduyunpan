@@ -300,9 +300,10 @@
 						msg: '复制失败'
 					});
 				});
-				var text = '<div style="width:100%;word-break:break-all;text-align:left;border: 1px solid #e2e2e4;border-radius:5px;height: auto;"><a id="bar" href="' + dlinks.join('\n').replace('d.pcs.baidu.com',
-						'c.pcs.baidu.com') + '">' + dlinks.join('\n').replace('d.pcs.baidu.com',
-						'c.pcs.baidu.com') + '</a></div>';
+				var text = '<div style="width:100%;height:100%;max-height:500px;overflow-y:auto;">' +
+                    			dlinks.map(x=>('<div style="width:99%;word-break:break-all;text-align:left;border: 1px solid #e2e2e4; \
+					border-radius:5px;margin:5px 0 5px 0"><a id="bar" href="' + x.replace('d.pcs.baidu.com', 'c.pcs.baidu.com') +
+					'">' + x.replace('d.pcs.baidu.com', 'c.pcs.baidu.com') + '</a></div>')).join('') + '</div>';
 				var dialog = ctx.ui.confirm({
 					title: '直接下载地址（支持勾选多个文件,文件夹可获取压缩下载直链）',
 					body: text,
